@@ -1190,6 +1190,7 @@ type ColorType = {
     menuBackgroundColor: string;
     separator: string;
   };
+  link: string;
 };
 
 const gitSyncModal = {
@@ -1961,6 +1962,7 @@ export const dark: ColorType = {
   },
   actionSidePane,
   pagesEditor,
+  link: "#f86a2b",
 };
 
 export const light: ColorType = {
@@ -2541,6 +2543,7 @@ export const light: ColorType = {
   },
   actionSidePane,
   pagesEditor,
+  link: "#f86a2b",
 };
 
 export const theme: Theme = {
