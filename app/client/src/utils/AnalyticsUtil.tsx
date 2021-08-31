@@ -281,7 +281,7 @@ class AnalyticsUtil {
   static identifyUser(userData: User) {
     const { segment, smartLook } = getAppsmithConfigs();
     const windowDoc: any = window;
-    const userId = userData.username;
+    const userId = userData.usernam;
     if (windowDoc.analytics) {
       // This flag is only set on Appsmith Cloud. In this case, we get more detailed analytics of the user
       if (segment.apiKey) {
