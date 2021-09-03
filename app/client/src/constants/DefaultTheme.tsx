@@ -1191,6 +1191,9 @@ type ColorType = {
     separator: string;
   };
   link: string;
+  welcomePage?: {
+    text: string;
+  };
 };
 
 const gitSyncModal = {
@@ -2544,6 +2547,9 @@ export const light: ColorType = {
   actionSidePane,
   pagesEditor,
   link: "#f86a2b",
+  welcomePage: {
+    text: lightShades[5],
+  },
 };
 
 export const theme: Theme = {
