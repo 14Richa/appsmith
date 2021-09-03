@@ -1966,6 +1966,9 @@ export const dark: ColorType = {
   actionSidePane,
   pagesEditor,
   link: "#f86a2b",
+  welcomePage: {
+    text: lightShades[5],
+  },
 };
 
 export const light: ColorType = {
